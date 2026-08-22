@@ -1,35 +1,205 @@
 {
-  "updatedAt": "未部署自动任务",
+  "updatedAt": "2026-08-22T09:54+00:00",
   "items": [
     {
       "category": "供应链视角",
-      "date": "今日",
-      "source": "Google News RSS",
-      "title": "自动更新：供应链与物流公开资讯",
-      "summary": "本区由 news.json 提供数据。部署 GitHub Actions 后可每日自动抓取公开RSS并生成简报；未部署时保留本地示例。",
-      "status": "系统",
-      "stage": "自动更新",
-      "url": "https://news.google.com/"
+      "date": "Wed, 24 Jun 2026",
+      "source": "Supply Chain Management Review",
+      "title": "Elucidating import container flows: A simulation study of Port of New York/New Jersey - Supply Chain Management Review",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "供应链",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbko4bTZZMm9pN2tub2hSaEpSdWE4V09yRlpqTExockEwMmQ0N3VMdHFnbjduenI5MXlLZld0Sk1YVjkxbnl4VnFITkRaZHhLbjZXb0djcl9vTzh5VzFEOEYwTDhmOGxrRlZjazZZTkk1M1B0cVBfSTd1ekZIZDFqeUxCVWx0SGlXNVFqRWQ2SUNidENNVTY0?oc=5"
     },
     {
       "category": "供应链视角",
-      "date": "今日",
-      "source": "UNCTAD",
-      "title": "贸易、航运与供应链专业英语入口",
-      "summary": "适合作为供应链英语泛读素材：先读标题和摘要，再记录3个表达，最后用英文复述业务影响。",
-      "status": "推荐",
-      "stage": "学习",
-      "url": "https://unctad.org/"
+      "date": "Thu, 09 Jul 2026",
+      "source": "MarketScale",
+      "title": "U.S. supply chain leaders abandon \"return to normal\" as logistics costs settle and India's freight network expands - MarketScale",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "供应链",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQVnRmYzk0a2NvQXVFOFhGTWVMRlNTSlFYZVQ4Sk1aeE5hMGN4eGVlWEZ1V3U4MzZncktHY3U4NnU0NGRYRFR5dTJBNTRIUmJ6SHZ3MHVPT3paLWdNNU1NM2Y0OHo2X0lsa280ZlZ6bWpRMWFTUXhqYk1Cb3ZBSDB3cGo4SVV0dXdyZ0hHMFhZMDh6N3RXVkNCNFpGdnNyQklERlU0SmFfaWVoMXdDSEwxVFNBX2tWOTJGZUEwbW1Hc2Uxa2FmWWV2czRCa1EtUzk3M1czb0d0MUxmQmhGWUFIYTlyc0VzYUtJLU5SRkZJWTdNcXdsbWc?oc=5"
+    },
+    {
+      "category": "供应链视角",
+      "date": "Thu, 02 Jul 2026",
+      "source": "citybiz",
+      "title": "Wrist Group Acquires Military Services Australia to Expand Defense Logistics Platform - citybiz",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "供应链",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaGF4MUR2T1pSM21GZENxeUtzelRoa0xCX29ZSFM3SUY3amo4ZVRYN3ZuYXN5eHNHMlpSTkZQV3Z1MlFnN2dHNHJrR1VjXy1GV1hYT0tXdmRraGJsVFFsemxwMzNtZjF1dG1nbEJJb0haVFdkQjU3RHZyUjRfTVIxWU5YdTc1QjJvcnU4clpxYjV1SjRyQ2JCRTYyNGpNQVk5dG15b0VIUS1mZnZGaFRBUHlWOFJUekJGc3dDenNMVXZSQQ?oc=5"
+    },
+    {
+      "category": "供应链视角",
+      "date": "Wed, 17 Jun 2026",
+      "source": "WWD",
+      "title": "DOT Proposes National Freight Visibility Dashboard to Speed Cargo Flow, Cut Bottlenecks - WWD",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "供应链",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNnpva2I5S2VFUEZSbTl2SlhUd2UxVG9LYlJTY0hGTENub1pSbzZ4ckxOaDNmcVhYajNNM3VXLVF4QnRURFB0dWRCV014N2RJV3hYelFsQ1djTk1VSHFLMjlLRTRVelVMUEs3VWVCRmhSaXJGQVMtMG5kR3BTZ3lpcHhETGU3WFVJN25GSHBtZHRQeXYzM2h6T0xvTzRIWC1NY0dUQmhTUVdNcWM1SnlmUFA1N2NvX1J1YlRMRkJKVFJiYVpiSGN0MTVLWm10ODlKRWcxOER5OEpUWC02WDBKMFJhaXk?oc=5"
+    },
+    {
+      "category": "供应链视角",
+      "date": "Tue, 07 Apr 2026",
+      "source": "McKinsey & Company",
+      "title": "When a chokepoint breaks: What procurement leaders must do now - McKinsey & Company",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "供应链",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQkVHVi1rUE96d0MyUndqOEpRcmdZNTRGMkFiWFlXM295NTZ4MldsR0l1OC1zVFJ2U2ZHdFVfWmlCRXJKNDFVR18xTHdyMnl3WXZPbmEtWHNyZUhpS0hWWXJEZlBRS3VQeDdTVkQxc3g2RG1Gd3FMOXFNakFtZm1MMUxmVlRrZEZZM0pmOU9mY1RtSFdWby1ESHpKVmFfREU4S1JxelA1UEwxSkRRSURHaTJnZ0dBWmxiazJnVlI3LVZEZ28xSVgwTEJfZUtudDQyNGplYy1B?oc=5"
+    },
+    {
+      "category": "供应链视角",
+      "date": "Fri, 22 May 2026",
+      "source": "Global Trade Magazine",
+      "title": "How Trade Fragmentation is Reshaping Global Sourcing - Global Trade Magazine",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "供应链",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZDdzV0NFanBfOUxReUVHUnlMNm5QdldJVEZFMFpBaXFLTFBPay1mejIyYzR4TGstRnM2aU9QcHJjakxNeFdMbWVublhwdDRVNDY2N0NZMUd0ZEJScDhZYTRrOENobmh1RVNETml6d2E0aHhFTlNaeURFVl9YYVR2WVVmdVZIVV8xUUdSNQ?oc=5"
+    },
+    {
+      "category": "供应链视角",
+      "date": "Wed, 18 Mar 2026",
+      "source": "Dentons",
+      "title": "International Conflict and the Impact on Global Supply Chains: Key Contractual Considerations - Dentons",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "供应链",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSnU4NjdMdWtMWm1JZjBOSDRoY2VXMEN0Nmc3SW4wQWZubmRGWmZzSEZjSDBERmNnMVlwMG92U3k5bk4xMDhPQ0JQQ0t6R1I4ZXVZWXBpR0ZULVVkY0U2a2RoSkp3YzhkUGZhT09STnowWEZ4c1owQ0tDd09OZHVRYzBzMjZXWTMwTjI5Mlc0elJuTjE4ak00bjdna3ozeWxsbGhvZUtmZmFtTFUycHQ5NkhpVmpPUHZZVU5WSQ?oc=5"
+    },
+    {
+      "category": "供应链视角",
+      "date": "Fri, 13 Mar 2026",
+      "source": "UNICEF",
+      "title": "Warehouses and logistics - UNICEF",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "供应链",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Va29UYnlNbmdhZkpQdzUyZ0VKalM3dGlramJtVVhweURTbE83ZU1rMzBWVFV0bmFESTlBWnJ1MVRPNENSTWk4bHd1T25VUnRzaWtQUmE3VndqUk1lanVuMVdEUXU?oc=5"
+    },
+    {
+      "category": "供应链视角",
+      "date": "Fri, 21 Aug 2026",
+      "source": "InsideEVs",
+      "title": "Europe Is Learning An Uncomfortable Truth About Local Battery Production - InsideEVs",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "汽车供应链",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV2VYVzRuc3QzSVNnbHd5aWF2OVZmM1FkRXYydk5iNUkzTHZVUVRIVTFrSlRfZXhBdzdDUkxubEtRREhxQ0hOQ3FMMWE0U0xMTEZpTU5UcTB0NExVUWxXR29DZUlfdTlzZFR6TjBNa3c0MDRVTHJfOERSOE5zQVl1QmN6VFYtUGF3dFJF?oc=5"
+    },
+    {
+      "category": "供应链视角",
+      "date": "Thu, 13 Aug 2026",
+      "source": "CNBC",
+      "title": "From Apple to Ford: How Chinese tech is becoming harder for global companies to ignore - CNBC",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "汽车供应链",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUkJWX1oyZklMNlRwbTRFZDZ3TDhTX09IQ0tQa0Rzb0I2WUQ0YmhsUHkzUnlvTmZxLUl4RlI0YVZ1SzlpNHN6Wml1Y0I4aHM3VWItdjlYbHJQVXBVOHpiTnJwcnc4d3Ywd0lLTlhiNk95Z1h2ZDNib3RwdHlJdllrR1N2Wlp1aERENXhka1VCc9IBlAFBVV95cUxOQWFYWWxTQWR1Ml9rNXU2cDYwdi1ScVhxVjZmYW9Pb3M3ckVjYkN6b215a0FKX003ZWV6d3FydWNOamhoVGJVZkFOR3VjZndxWWc2Vm43NVI0ZnY3OXJSSWZhNFVPN3E3WFE3dXJJQlNuOWk5SVpIcnJldUh0UTdRa3VBd29abk5LWXQ4V0theTd2Nnpn?oc=5"
+    },
+    {
+      "category": "供应链视角",
+      "date": "Wed, 29 Apr 2026",
+      "source": "l'Institut français des relations internationales (IFRI)",
+      "title": "China’s EV Rise and the Strategic Challenge for Japan’s Automotive Industry - l'Institut français des relations internationales (IFRI)",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "汽车供应链",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONFl1ZlNhejhER2cxb29BbE1mMjduLTlVR2J0UnQzYjJjN1BWOUFsQ0FHcXhoYUpNZWJlYU5EQkxUakpYOHA4ZGJaZEhTZEpMMFVXT3UwTnB0X0RqQURHZW1SYXhqZVFmR1VHZjZjVV9kZXVZOTBHLTVVV2MteUFYNU5MSV9zNGRBTDNISjB5Q1dWc2JoMmdTSzMxbw?oc=5"
+    },
+    {
+      "category": "供应链视角",
+      "date": "Mon, 29 Jun 2026",
+      "source": "DGAP",
+      "title": "China’s EV Rise and the Strategic Challenge for Japan’s Automotive Industry - DGAP",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "汽车供应链",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMk1EbHlibVd3cUFqd0pGX3F0eFlZejVxOUlQcERqOWxIa1NQdHhEaVMwQlBydWJWdUgwLWN1QWFKQnkxUENsVzBsN002NGNJZWRIXzVYaDVvM2JyMXNzaTVMa0FpVlBya1d1LTFPN3BhQUFVb1pDdFBTcldTVURJLU5aUFg5aVhjLWJXUzBUb0pieDdfLTkxNEVwa1lqdzB1blpiNnM1TWZ1OG8?oc=5"
+    },
+    {
+      "category": "供应链视角",
+      "date": "Tue, 23 Jun 2026",
+      "source": "Reuters",
+      "title": "Chinese EV makers are shut out of India - but their tech isn't - Reuters",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "汽车供应链",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOUZWMV96dlI3VE5BbTgzV0ladzc1b3I2VEZEZXJjVTc1R2hfeGZObmRzQ1JJZ1BiZldteHduYW4wLS1wRVVEb1BTTndhZkJmZjJuWU5EZWdvZXIzU251cEFjTVFMRlZEekYtV1dvTnJuZFQ4bHFQOGg3eHg5UVptMGwxYnJaaUZIcGtXQXpsblZqVW80dmp1TFB2eU5DeTRhZ0E?oc=5"
+    },
+    {
+      "category": "供应链视角",
+      "date": "Wed, 12 Aug 2026",
+      "source": "WorldCargo News",
+      "title": "China’s EV dominance faces new challenges - WorldCargo News",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "汽车供应链",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVjlrWWcyOElaQUVrWVRsWVhhTnNWa1RndTBwT0t2TjhLWGFOREkzaVJ5d29SZDlua3BDUzBuSVlSbTB5QjdGZWYtZWozZVdKMEJUdDZRQlNTVHlJWmlSSHNMTzBhTDU5V1FpWjhuVGoxTi1jZ1RIQzFZRURoUU9femhEOC1pMjJPTlRubmNPQ08xcUZCNHR5QXBQLVZqYW44?oc=5"
+    },
+    {
+      "category": "供应链视角",
+      "date": "Tue, 28 Jul 2026",
+      "source": "Nikkei Asia",
+      "title": "CATL thrives while China's EV makers squeezed by supply chain, weak market - Nikkei Asia",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "汽车供应链",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUERubWV0RzJDalFJUzJ5Z1NTb3cyWHdJdzd2S3kwQjU3ZFRVQVpURDdaaldVaV9WX1VZcU9vaVdLeXFJZlU5ZV81cURkRW5vTUYzekNIbDlKOUVna2JWc19nZVR1TnEzdjZUVExVdDR1SHc5dXZFS1FtcjFWcng5NkN1V2hCdnNaa21UWm5WYUNlNE9mUlozd3lhRXdtYVhuV0FiWnpUZ0dUMHRVU29jelVWWWRVNXZWYTlqc0tjZDJUN3I5NVpma016UDNiM3ZueVE?oc=5"
+    },
+    {
+      "category": "供应链视角",
+      "date": "Wed, 20 May 2026",
+      "source": "IEA – International Energy Agency",
+      "title": "Manufacturing and trade – Global EV Outlook 2026 – Analysis - IEA – International Energy Agency",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "汽车供应链",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBdlRidlFWTllkZFUwX0tURmp4UmxwenFiRk5tT29WQndpN0xVbU55TV9VRGFJaFBGMm1weTZyczc5MjJ5aDZDVlhqSnh6Mk5EMV84UE0wWk1JWXFjWGpfY0EwN2JXcjZuckx0dVJ1LWFFTjU5bnpSc1lPek1SMWc?oc=5"
     },
     {
       "category": "时尚视角",
-      "date": "今日",
-      "source": "Vogue Business",
-      "title": "时尚产业商业新闻：从品牌动作反推供应链变化",
-      "summary": "练习把时尚商业新闻转译成供应链问题：产地、库存、门店补货、交付周期、采购与渠道。",
-      "status": "推荐",
-      "stage": "学习",
-      "url": "https://www.voguebusiness.com/zh-hans"
+      "date": "Wed, 20 May 2026",
+      "source": "CNBC",
+      "title": "A strange paradox has taken hold of the global fashion industry - CNBC",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "时尚供应链",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdmxrd2Y0dnluVkwyM2tzTm1DOWRXcXAwMDkzYVpWeWo1Rnc3bjZjdE5CYnJkLXEtX2g3TVB6OVRzQU5reldtWjh5M3l4eTlMa0J5eGVob2w0QUt6WXVhcThvdG9NdnBnVHl4Y2kzckZMNzM5S2ZLdW8yTHF2LUlHLWJQYnJZSjlONC1vVThjSmUtTUN3M0hCbXFPbjVIY3EyanJz0gGoAUFVX3lxTFB4Q3J3NGtJQzcxM2g4MHVyYkNvc3JxeXZYRmJ6aTdqTjV6eEswelppRjlQMzJ2NXl1U1hvdXhuaG9fT3oyRHJXdFpITTAwal9RejU1QkgyUHk1cnNFZ1dIdWpXNnBJNWd2TTVTQUpLVl9NbXN2eGoxOGJUT0xDYnFob1REREs4SVQ2aHh2bFZ5em9yQTJIcXhxRWdkVkE0VnN1ZU5GaUFacg?oc=5"
+    },
+    {
+      "category": "时尚视角",
+      "date": "Fri, 17 Jul 2026",
+      "source": "The Fashion Law",
+      "title": "Italy Targets Fashion’s Dirty Secret: Labor Abuses in Luxury - The Fashion Law",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "时尚供应链",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTDE4dW1mVFhlNjZlbHpUS1hRODBqSDVMUXJXR1BPd1BXRVVucGFEOGRRN0pQWDJlNmdDeGRhcWltZ3FmbUxMS2tyZ29ON2ZfMTFWOWVGcVEtdXdQZ2lUTU5IWEVkdmdHMFJyUTVNdUs0RmdDX0YwWmJBTkhxS1FXSWpHZS04SW9Na0JFUW8tWC1iaW5PdXF3NkYza1FreC1zV0R0ZFl3?oc=5"
+    },
+    {
+      "category": "时尚视角",
+      "date": "Tue, 26 May 2026",
+      "source": "Fashion United",
+      "title": "Alphalyr Wins 2026 ANDAM Innovation Prize for AI in fashion supply chain - Fashion United",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "时尚供应链",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLTFtc2pLcjVjM1h5Q1VWWnFoMkRpNlJjWnpFX3l2ci1BV1BxZm1yUWdTQ2xLUTc4Sy1kSTNvZjBNMGRUMkdTWmRxU25TdzFwLVFJZjB4dGpGNk5keHdMRXlTR2ZKcmpXV0RkczJnLUQ1a2IxcHhlWnNWdTkwMWtSMlUzRDBtWGxjOW1zSEVpY3lsNTFjVERMNkZpRXRseE1oNG5seXBQZVlfQ2JXWVFVcTJUWVlCTDJqRk5qVmlIMHdLUQ?oc=5"
+    },
+    {
+      "category": "时尚视角",
+      "date": "Mon, 20 Jul 2026",
+      "source": "Retail Gazette",
+      "title": "Italian police search Chanel offices in luxury labour probe - Retail Gazette",
+      "summary": "公开RSS线索。阅读原文后，再在WorkBench里写下：发生了什么？影响哪个供应链环节？下一步看什么数据？",
+      "status": "待核验",
+      "stage": "时尚供应链",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPX3JjakZLcXRxbTdkSS0tVVVaMEdLVjFjak1iVkUxMHJWdzQxdEY3ZTVpR3libDE3RVNaVzdjWVMzTm0zTVA4aVE0ZFJFSjJydHJPM0RrTDdIcWIteXhobFVCa2lRZEZ1b0x4dWJERlFpa2VtZTAza1FfMFZKR2NKU1BncUxZWlNVeXIzckdYcVRRd1pxVURiSXhEcVNwVjZWeTZNWVBVNFE?oc=5"
     }
   ]
 }
