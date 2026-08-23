@@ -26,14 +26,30 @@
 </main><footer class="footer">Betty Personal Workbench V5 · 本地学习记录使用localStorage；自动新闻需要部署GitHub Actions/Pages或其他定时任务。</footer>
 <script>
 // ===== Module navigation =====
-document.querySelectorAll('[data-module]').forEach(btn=>{
-  btn.addEventListener('click',()=>{
-    document.querySelectorAll('[data-module]').forEach(x=>x.classList.toggle('active',x===btn));
-    ['supply','daily','ielts','sql','case'].forEach(id=>{
-      const el=document.getElementById(id);
-      if(el) el.classList.toggle('hidden',id!==btn.dataset.module);
-    });
-    window.scrollTo({top:0,behavior:'smooth'});
+function switchModule(moduleName) {
+  const buttons = document.querySelectorAll('[data-module]');
+  const modules = ['supply', 'daily', 'ielts', 'sql', 'case'];
+
+  buttons.forEach(button => {
+    button.classList.toggle(
+      'active',
+      button.dataset.module === moduleName
+    );
+  });
+
+  modules.forEach(id => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.classList.toggle('hidden', id !== moduleName);
+    }
+  });
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+document.querySelectorAll('[data-module]').forEach(button => {
+  button.addEventListener('click', function () {
+    switchModule(this.dataset.module);
   });
 });
 
