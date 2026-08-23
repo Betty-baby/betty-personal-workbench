@@ -104,11 +104,7 @@ QUERIES = [
 # 2. 参数
 # ============================================================
 
-# 第一优先级：最近30天
-PRIMARY_DAYS = 30
 
-# 如果30天新闻太少，扩大到90天
-FALLBACK_DAYS = 90
 
 # 每个RSS查询最多读取多少条
 ITEMS_PER_QUERY = 10
@@ -255,48 +251,18 @@ for category, query, stage in QUERIES:
         print(e)
 
 
+
+
 # ============================================================
-# 7. 按时间筛选
+# 7. 按发布时间排序
 # ============================================================
 
-# 先按发布时间从新到旧排序
 raw_items.sort(
     key=lambda x: x["_published"],
     reverse=True
 )
 
-
-# ------------------------------------------------------------
-# 第一轮：最近30天
-# ------------------------------------------------------------
-
-recent_items = [
-    item
-    for item in raw_items
-    if item["_published"] >= primary_cutoff
-]
-
-
-print(f"\nRecent {PRIMARY_DAYS} days: {len(recent_items)} items")
-
-
-# ------------------------------------------------------------
-# 如果30天不够，再扩大到90天
-# ------------------------------------------------------------
-
-if len(recent_items) < MAX_ITEMS:
-
-    recent_items = [
-        item
-        for item in raw_items
-        if item["_published"] >= fallback_cutoff
-    ]
-
-    print(
-        f"Expanded to recent {FALLBACK_DAYS} days: "
-        f"{len(recent_items)} items"
-    )
-
+final_items = raw_items[:MAX_ITEMS]
 
 # ============================================================
 # 8. 最终排序 + 限量
