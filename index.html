@@ -103,12 +103,25 @@ function renderSupply(){
 }
 function setNewsData(items,updatedAt){
   const all=(Array.isArray(items)?items:[]).filter(n=>parseNewsDate(n)>0).sort((a,b)=>parseNewsDate(b)-parseNewsDate(a));
-  let recent=all.filter(isRecentNews);
-  let windowDays=NEWS_MAX_DAYS;
-  if(recent.length<NEWS_MIN_ITEMS){
-    recent=all.filter(n=>{const t=parseNewsDate(n);return t>0&&(Date.now()-t)<=NEWS_FALLBACK_DAYS*86400000;});
-    windowDays=NEWS_FALLBACK_DAYS;
-  }
+  function setNewsData(items,updatedAt){
+  const all=(Array.isArray(items)?items:[])
+    .filter(n=>parseNewsDate(n)>0)
+    .sort((a,b)=>parseNewsDate(b)-parseNewsDate(a));
+
+  supplyData=all;
+  dailyData=all.slice();
+
+  document.getElementById('supplyUpdate').textContent=
+    `共 ${all.length} 条 · 更新于 ${updatedAt||'未知时间'}`;
+
+  document.getElementById('dailyUpdate').textContent=
+    `共 ${all.length} 条 · 更新于 ${updatedAt||'未知时间'} · 行业不限`;
+
+  renderSupplyFilters();
+  renderSupply();
+  renderDailyFilters();
+  renderDaily();
+}
   supplyData=recent; dailyData=recent.slice();
   const label=windowDays===NEWS_MAX_DAYS?'最近7天优先':'近7天不足，已自动放宽至30天';
   document.getElementById('supplyUpdate').textContent=`${label} · ${recent.length}条 · 更新于 ${updatedAt||'未知时间'}`;
