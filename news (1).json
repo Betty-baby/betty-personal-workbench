@@ -1,0 +1,35 @@
+{
+  "updatedAt": "未部署自动任务",
+  "items": [
+    {
+      "category": "供应链视角",
+      "date": "今日",
+      "source": "Google News RSS",
+      "title": "自动更新：供应链与物流公开资讯",
+      "summary": "本区由 news.json 提供数据。部署 GitHub Actions 后可每日自动抓取公开RSS并生成简报；未部署时保留本地示例。",
+      "status": "系统",
+      "stage": "自动更新",
+      "url": "https://news.google.com/"
+    },
+    {
+      "category": "供应链视角",
+      "date": "今日",
+      "source": "UNCTAD",
+      "title": "贸易、航运与供应链专业英语入口",
+      "summary": "适合作为供应链英语泛读素材：先读标题和摘要，再记录3个表达，最后用英文复述业务影响。",
+      "status": "推荐",
+      "stage": "学习",
+      "url": "https://unctad.org/"
+    },
+    {
+      "category": "时尚视角",
+      "date": "今日",
+      "source": "Vogue Business",
+      "title": "时尚产业商业新闻：从品牌动作反推供应链变化",
+      "summary": "练习把时尚商业新闻转译成供应链问题：产地、库存、门店补货、交付周期、采购与渠道。",
+      "status": "推荐",
+      "stage": "学习",
+      "url": "https://www.voguebusiness.com/zh-hans"
+    }
+  ]
+}
