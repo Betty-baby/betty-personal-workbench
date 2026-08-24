@@ -40,8 +40,8 @@ document.querySelectorAll('[data-module]').forEach(btn=>{
 // V5.1：供应链雷达与每日资讯共用同一个 news.json。
 let supplyData=[];
 let selected='全部';
-const NEWS_MAX_DAYS=7;
-const NEWS_FALLBACK_DAYS=30;
+const NEWS_MAX_DAYS=30;
+const NEWS_FALLBACK_DAYS=90;
 const NEWS_MIN_ITEMS=5;
 
 // ===== Supply / industry radar =====
@@ -94,7 +94,7 @@ function setNewsData(items,updatedAt){
     windowDays=NEWS_FALLBACK_DAYS;
   }
   supplyData=recent; dailyData=recent.slice();
-  const label=windowDays===NEWS_MAX_DAYS?'最近7天优先':'近7天不足，已自动放宽至30天';
+  const label=windowDays===NEWS_MAX_DAYS?'最近30天优先':'近30天不足，已自动放宽至90天';
   document.getElementById('supplyUpdate').textContent=`${label} · ${recent.length}条 · 更新于 ${updatedAt||'未知时间'}`;
   document.getElementById('dailyUpdate').textContent=`${label} · ${recent.length}条 · 更新于 ${updatedAt||'未知时间'} · 行业不限`;
   renderSupplyFilters(); renderSupply(); renderDailyFilters(); renderDaily();
