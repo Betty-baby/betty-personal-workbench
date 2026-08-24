@@ -26,16 +26,81 @@
 </main><footer class="footer">Betty Personal Workbench V5 · 本地学习记录使用localStorage；自动新闻需要部署GitHub Actions/Pages或其他定时任务。</footer>
 <script>
 // ===== Module navigation =====
-document.querySelectorAll('[data-module]').forEach(btn=>{
-  btn.addEventListener('click',()=>{
-    document.querySelectorAll('[data-module]').forEach(x=>x.classList.toggle('active',x===btn));
-    ['supply','daily','ielts','sql','case'].forEach(id=>{
-      const el=document.getElementById(id);
-      if(el) el.classList.toggle('hidden',id!==btn.dataset.module);
+// ===== MODULE NAVIGATION =====
+// Betty Personal Workbench V5
+// 五个模块真正切换：供应链情报 / 每日资讯 / IELTS / SQL训练 / 供应链Case
+
+const MODULES = ['supply', 'daily', 'ielts', 'sql', 'case'];
+
+function switchModule(moduleName) {
+    if (!MODULES.includes(moduleName)) return;
+
+    // 1. 切换按钮状态
+    document.querySelectorAll('[data-module]').forEach(button => {
+        button.classList.toggle(
+            'active',
+            button.dataset.module === moduleName
+        );
     });
-    window.scrollTo({top:0,behavior:'smooth'});
-  });
+
+    // 2. 切换页面模块
+    MODULES.forEach(module => {
+        const section = document.getElementById(module);
+
+        if (section) {
+            section.classList.toggle(
+                'hidden',
+                module !== moduleName
+            );
+        }
+    });
+
+    // 3. 记住用户最后打开的模块
+    localStorage.setItem(
+        'bettyActiveModule',
+        moduleName
+    );
+
+    // 4. 进入对应模块时重新渲染
+    if (moduleName === 'supply') {
+        renderSupplyFilters();
+        renderSupply();
+    }
+
+    if (moduleName === 'daily') {
+        renderDailyFilters();
+        renderDaily();
+    }
+
+    if (moduleName === 'ielts') {
+        renderIeltsTasks();
+        renderIeltsTabs();
+        renderIeltsResources();
+    }
+
+    if (moduleName === 'sql') {
+        renderSqlDays();
+        renderSqlCard();
+        renderMistakeList();
+    }
+
+    if (moduleName === 'case') {
+        renderCase();
+    }
+}
+
+// 给顶部按钮绑定点击事件
+document.querySelectorAll('[data-module]').forEach(button => {
+    button.addEventListener('click', () => {
+        switchModule(button.dataset.module);
+    });
 });
+
+// 页面打开时恢复上一次所在模块
+const savedModule =
+    localStorage.getItem('bettyActiveModule') || 'supply';
+
+switchModule(savedModule);
 
 // V5.1：供应链雷达与每日资讯共用同一个 news.json。
 let supplyData=[];
